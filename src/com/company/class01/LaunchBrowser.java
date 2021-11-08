@@ -13,7 +13,7 @@ public class LaunchBrowser {
         System.out.println(url);
         String title= driver.getTitle();
         System.out.println(title);
-        driver.quit();
+        
     }
 
 }
